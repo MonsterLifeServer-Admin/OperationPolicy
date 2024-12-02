@@ -1,0 +1,42 @@
+site_name: MonsterLifeServer：運営方針リポジトリ
+site_url: https://operation-policy.mlserver.xyz/
+copyright: '© 2024 MonsterLifeServer'
+repo_name: 'OperationPolicy'
+theme:
+    features:
+        - header.autohide
+    name: material
+    language: ja
+    logo: img/favicon.png
+    favicon: img/favicon.png
+    custom_dir: overrides
+    palette: 
+        # Palette toggle for light mode
+        - scheme: default
+          toggle:
+            icon: material/brightness-7 
+            name: Switch to dark mode
+    
+        # Palette toggle for dark mode
+        - scheme: slate
+          toggle:
+            icon: material/brightness-4
+            name: Switch to light mode
+nav:
+    - Home: 'index.md'
+    - '運営方針':
+        - '1. 配信について': 'operation-policy/stream.md'
+        - '2. 運営について': 'operation-policy/admin.md'
+        - '3. 運営専用グループについて': 'operation-policy/admin-group.md'
+        - '4. 鯖について':
+            - '1. ゾンビエスケープ鯖について': 'operation-policy/ze-server.md'
+            - '2. サバイバル鯖について': 'operation-policy/survival-server.md'
+        - '5. YouTubeについて': 'operation-policy/youtube.md'
+        - '6. Twitchについて': 'operation-policy/twitch.md'
+        - '7. 配信について': 'operation-policy/stream.md'
+extra:
+    consent:
+        title: Cookie設定
+        description: >- 
+            私たちは、あなたの再訪問や好みを認識し、また、ドキュメントの効果やユーザーが求めている情報を見つけられているかを測定するためにクッキーを使用しています。
+            あなたの同意により、私たちはドキュメントの改善に役立てることができます。
